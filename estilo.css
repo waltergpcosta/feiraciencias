@@ -1,0 +1,208 @@
+body {
+    margin: 15px;
+}
+
+header {
+    /* largura*/
+    width:100%;
+    /* altura*/
+    height:240px;
+    border-top: 8px solid rgba(2, 27, 13, 0.527);
+    border-left: 8px solid rgba(2, 27, 13, 0.527);
+    border-right: 8px solid rgba(2, 27, 13, 0.527);
+    border-bottom: 8px solid rgba(2, 27, 13, 0.527);
+    background-image: url(./imagens/Banner\ site\ 01.gif);
+        
+}
+
+main{
+    /* largura da página */
+    width:65%;
+    /* altura da página*/
+    height:auto;
+    /* posição que a página ocupará na tela = centralizado*/
+    margin-top: 8px;
+    /* left: posição de esquerda*/
+    margin-left: 8px;
+    /* bottom : posição de baixo */
+    padding-left: 15px;
+    margin-bottom: 8px;
+    /* right : posição de direita */
+    margin-right:8px;
+    padding-right: 15px;
+    float:left;
+    /* cor de fundo da página */
+    background-color:rgb(44, 89, 97);
+}
+
+aside{
+    width:30%;
+  /* altura da div */
+    height:auto;
+    margin-top: 8px;
+    /* bottom : posição de baixo */
+    padding-left: 5px;
+    margin-bottom: 5px;
+    /* right : posição de direita */
+    margin-right:5px;
+    float:left;
+  /* Cor de fundo da div */
+    background-color:rgba(5, 31, 34, 0.911);
+}
+
+textarea {
+    /* Para alinhar corretamente os campos de texto de várias linhas com sua label*/
+    vertical-align: top;
+
+    /* Para dar espaço suficiente para digitar algum texto */
+    height: 5em;
+
+    /* Para permitir aos usuários redimensionarem qualquer textarea verticalmente. Ele não funciona em todos os browsers */
+    resize: vertical;
+}
+
+.menu1:active {
+        background-color: rgba(105, 114, 65, 0.342);
+        color:rgb(50, 7, 90);
+}
+
+.menu1visited{
+    background-color: rgba(105, 114, 65, 0.342);
+    color:rgb(238, 228, 236);
+}
+footer {
+    background-color:rgb(44, 89, 97);
+    width: 100%;
+    margin-top: 10px;
+    /* bottom : posição de baixo */
+    padding-left: 20px;
+    margin-bottom: 10px;
+    /* right : posição de direita */
+    margin-right:10px;
+    float:left;
+
+}
+
+@keyframes move {
+    from {
+        left: 5%;
+    }
+    to {
+        left: 85%;
+    }
+  }
+
+p{
+    text-align: right;
+    color:white;
+}
+
+nav ul {
+    background-color:rgb(44, 89, 97);
+    font-size: 26px;
+    box-sizing: border-box;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h1 {
+    text-align: center;
+    color:white;
+    font-size: 40px;
+    animation: 2s move;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+h2 {
+    font-size: 40px;
+    background-color: rgba(216, 112, 15, 0.836);
+    margin: 10px;
+    text-align:center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-size: 30px;
+    margin: 16px;
+    text-align:left;
+    color: rgb(243, 123, 11);
+    padding-top: 16px;
+    border-bottom: 5px solid black;
+}
+
+h4 {
+    font-size: 20px;
+    color: white;
+}
+.fonte1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+
+}
+.fonte2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:justify;
+    font-size: 22px;
+    color:white;
+    }
+.fonte3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    font-size: 20px;
+    color:white;
+    }
+.fonte4 {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align:center;
+        font-size: 28px;
+        color:white;
+        }
+  
+.imagem {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 150px;
+    height: 90px;
+}
+.imagem0 {
+    margin-left: 10px;
+    width: 90px;
+    height: 60px;
+}
+
+.imagem1 {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 220px;
+    height: 90px;
+}
+.imagem2 {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 300px;
+    height: 100px
+   }
+
+   .imagem4 {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 450px;
+    height: 250px
+   }
+   .imagem3 {
+    margin-left: 8px;
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    width: 250px;
+    height:150px
+   }
